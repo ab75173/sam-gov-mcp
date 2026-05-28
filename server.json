@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ab75173/sam-gov-mcp",
+  "title": "SAM.gov Opportunities",
+  "description": "Search federal contract opportunities on SAM.gov (Get Opportunities v2 API).",
+  "repository": {
+    "url": "https://github.com/ab75173/sam-gov-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "sam-gov-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SAM_GOV_API_KEY",
+          "description": "Your SAM.gov API key (free, from sam.gov account details).",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

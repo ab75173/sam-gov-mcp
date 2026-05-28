@@ -1,5 +1,7 @@
 # sam-gov-mcp
 
+<!-- mcp-name: io.github.ab75173/sam-gov-mcp -->
+
 [![CI](https://github.com/ab75173/sam-gov-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/ab75173/sam-gov-mcp/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
